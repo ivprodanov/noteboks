@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1712410001000",
+    "title": "The Collector's Fallacy",
+    "type": "permanent",
+    "content": "## Definition\nThe Collector's Fallacy is the false belief that 'to have is to know.' \n\nWe often bookmark articles, buy books, or save PDFs thinking we have acquired the knowledge within them. In reality, knowledge is only acquired through the **active process** of writing and connecting ideas in our own words.\n\n> 'Knowing is not owning.'\n\nRefer to the principle of elaboration in [[1712410005000]].",
+    "links": ["1712410005000"],
+    "tags": ["learning", "psychology", "productivity"],
+    "dateCreated": "2026-04-06T08:00:00Z"
+  },
+  {
+    "id": "1712410002000",
+    "title": "Fleeting Thought: The Library of Babel",
+    "type": "fleeting",
+    "content": "Just finished Borges' short story. The idea of a library containing every possible book is a great metaphor for the internet. Without a Zettelkasten, the internet is just noise. Need to turn this into a literature note later.",
+    "links": [],
+    "tags": ["borges", "philosophy", "random"],
+    "dateCreated": "2026-04-06T08:15:00Z"
+  },
+  {
+    "id": "1712410003000",
+    "title": "How to Take Smart Notes (Ahrens)",
+    "type": "literature",
+    "content": "### Key Takeaways\n1. **Standardize the workflow**: Don't just take notes; build a system where notes grow into projects.\n2. **Bottom-up**: Don't start with a topic. Start with the notes you have and see what clusters emerge.\n3. **Writing is the tool**: Writing is not the outcome of thinking; it is the *medium* of thinking.\n\nSee [[1712410001000]] for why just reading this book isn't enough.",
+    "links": ["1712410001000"],
+    "tags": ["books", "writing", "systems"],
+    "dateCreated": "2026-04-06T08:30:00Z"
+  },
+  {
+    "id": "1712410004000",
+    "title": "Atomic Ideas",
+    "type": "permanent",
+    "content": "Every Zettel should contain exactly **one idea**. \n\nIf a note becomes too long, it should be split. This 'atomicity' allows for more granular linking. If notes are too broad, they become difficult to link to specific contexts later on.",
+    "links": ["1712410003000"],
+    "tags": ["zettelkasten", "logic"],
+    "dateCreated": "2026-04-06T09:00:00Z"
+  },
+  {
+    "id": "1712410005000",
+    "title": "The Elaboration Principle",
+    "type": "permanent",
+    "content": "Elaboration is the process of putting new information into the context of existing knowledge. \n\nBy asking 'How does this relate to what I already know?' or 'How does this contradict my current view?', we create deep mental hooks that make retrieval easier. This is the manual labor of the Zettelkasten.",
+    "links": ["1712410001000", "1712410004000"],
+    "tags": ["learning", "cognition"],
+    "dateCreated": "2026-04-06T09:15:00Z"
+  },
+  {
+    "id": "1712410006000",
+    "title": "Comparison: Folder-based vs. Link-based",
+    "type": "permanent",
+    "content": "Folders force an idea to live in **one** place. This is a 'top-down' hierarchy. \n\nLinks allow an idea to exist in **multiple** contexts simultaneously. This mirrors the brain's associative nature. A note on 'Biology' might also be linked to 'Architecture' (biomimicry). Folders kill these cross-disciplinary sparks.",
+    "links": ["1712410004000"],
+    "tags": ["systems", "organization"],
+    "dateCreated": "2026-04-06T09:45:00Z"
+  },
+  {
+    "id": "1712410007000",
+    "title": "Quote: Luhmann on Communication",
+    "type": "literature",
+    "content": "Luhmann describes his slip-box as a 'communication partner.' \n\nBy retrieving notes that were written years ago and seeing how they fit with current thoughts, he was surprised by the system. The Zettelkasten is not just a storage unit; it is a generator of new ideas.",
+    "links": ["1712410003000"],
+    "tags": ["luhmann", "quotes"],
+    "dateCreated": "2026-04-06T10:00:00Z"
+  },
+  {
+    "id": "1712410008000",
+    "title": "Technique: The Slip-Box Numbering",
+    "type": "permanent",
+    "content": "Niklas Luhmann used a complex alphanumeric system (e.g., 2,1a, 2,1b). \n\nIn a digital system, we use **Timestamps** or **Unique IDs** because the search function handles the navigation, but the principle remains: give every thought a permanent address.",
+    "links": ["1712410007000"],
+    "tags": ["methodology", "history"],
+    "dateCreated": "2026-04-06T10:15:00Z"
+  },
+  {
+    "id": "1712410009000",
+    "title": "React vs. Native for Second Brains",
+    "type": "fleeting",
+    "content": "Building this in React/Vite feels right because of the web's inherent linking nature. Using JSON for export makes it platform-independent. Next step: Electron for local file access.",
+    "links": [],
+    "tags": ["coding", "project-log"],
+    "dateCreated": "2026-04-06T10:30:00Z"
+  },
+  {
+    "id": "1712410010000",
+    "title": "Bi-Directional Linking Benefits",
+    "type": "permanent",
+    "content": "Backlinks provide 'serendipity.' \n\nWhen I look at a note on [[1712410001000]], I can see all the other notes that point to it, even if I forgot I made those connections. It allows for an automated 'Related' section.",
+    "links": ["1712410001000"],
+    "tags": ["zettelkasten", "logic"],
+    "dateCreated": "2026-04-06T10:45:00Z"
+  }
+]
