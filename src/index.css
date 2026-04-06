@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Add this exact line right here */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Optional: Smooth transition for the eyes */
+html {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}

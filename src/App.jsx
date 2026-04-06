@@ -6,8 +6,21 @@ import Settings from './pages/Settings';
 
 // Optional: For beautiful page transitions
 import { AnimatePresence } from 'framer-motion';
+import GraphViewPage from './pages/GraphViewPage';
+import useNoteStore from './store/useNoteStore';
+import { useEffect } from 'react';
 
 function App() {
+  const darkMode = useNoteStore((state) => state.darkMode);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode]);
+
   return (
     <Router>
       <Routes>
@@ -22,6 +35,7 @@ function App() {
           
           {/* Import/Export and App Preferences */}
           <Route path="settings" element={<Settings />} />
+          <Route path="graph" element={<GraphViewPage />} />
           
           {/* Catch-all redirect */}
           <Route path="*" element={<Navigate to="/" replace />} />
