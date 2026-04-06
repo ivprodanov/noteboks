@@ -118,9 +118,55 @@ const useNoteStore = create(
       })),
       
       // JSON Import/Export
-      importBoks: (data) => set((state) => ({
-        bokses: [...state.bokses, data]
-      })),
+      importBoks: (data) => set((state) => {
+  // 1. Create a unique ID for the Boks itself
+  const newBoksId = Date.now().toString(); 
+  
+  const newBoks = {
+    ...data,
+    id: newBoksId, // Overwrite the AI's ID with a fresh one
+    // 2. Also ensure every note inside is unique if necessary
+    notes: data.notes.map((note, index) => ({
+      ...note,
+      // Optional: Regenerate note IDs to prevent collisions there too
+      id: `${newBoksId}-${index}` 
+    }))
+  };
+
+  return {
+    bokses: [...state.bokses, newBoks],
+    currentBoksId: newBoksId // Automatically switch to the new Boks
+  };
+}),
+clearAll: () => set((state) => {
+  // 1. Find the tutorial boks if it exists in current state
+  const tutorialBoks = state.bokses.find(b => b.id === 'tutorial');
+  
+  // 2. If it's missing (somehow), we define the fallback here
+  const fallbackTutorial = {
+    id: 'tutorial',
+    name: 'Tutorial Boks',
+    notes: [/* ... your new tutorial notes array from earlier ... */]
+  };
+
+  return {
+    // Keep only the tutorial, discard everything else
+    bokses: [tutorialBoks || fallbackTutorial],
+    currentBoksId: 'tutorial'
+  };
+}),
+importBulk: (incomingBokses) => set((state) => {
+  const processed = incomingBokses.map((boks) => ({
+    ...boks,
+    // Ensure every imported Boks gets a unique ID to avoid coupling
+    id: `bulk-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`,
+    notes: boks.notes || []
+  }));
+
+  return {
+    bokses: [...state.bokses, ...processed]
+  };
+}),
       darkMode: false,
       toggleDarkMode: () => set((state) => ({ darkMode: !state.darkMode })),
     }),

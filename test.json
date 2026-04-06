@@ -1,0 +1,126 @@
+{
+  "id": "1775469610767",
+  "name": "Introduction to Strategic Management",
+  "notes": [
+    {
+      "id": "1775469610768",
+      "title": "Drivers of Strategic Management",
+      "type": "literature",
+      "content": "Strategic management emerges due to dynamic environments, increased competition, higher management demands, and the need for clearer organizational direction.",
+      "links": [],
+      "tags": ["strategic_management", "environment"]
+    },
+    {
+      "id": "1775469610769",
+      "title": "Strategic Management Definition",
+      "type": "literature",
+      "content": "Strategic management is a process of anticipating the future and taking actions to achieve desired organizational outcomes. It involves [[1775469610770]].",
+      "links": ["1775469610770"],
+      "tags": ["definition", "process"]
+    },
+    {
+      "id": "1775469610770",
+      "title": "Strategic Decision-Making",
+      "type": "literature",
+      "content": "Strategic management includes making key decisions about the long-term development of the organization. See [[1775469610769]].",
+      "links": ["1775469610769"],
+      "tags": ["decision_making"]
+    },
+    {
+      "id": "1775469610771",
+      "title": "Importance of Strategic Management",
+      "type": "literature",
+      "content": "Strategic management is essential for effective organizational management; without it, management becomes incomplete and ineffective.",
+      "links": [],
+      "tags": ["importance"]
+    },
+    {
+      "id": "1775469610772",
+      "title": "Strategic Management Components",
+      "type": "literature",
+      "content": "Key components include mission formulation, goal setting, identifying alternatives, strategy selection, implementation, and evaluation. See [[1775469610773]] and [[1775469610774]].",
+      "links": ["1775469610773", "1775469610774"],
+      "tags": ["components"]
+    },
+    {
+      "id": "1775469610773",
+      "title": "Mission in Strategy",
+      "type": "literature",
+      "content": "The mission defines the organization's purpose by answering \"What is our business and what should it be?\" and guides long-term direction. See [[1775469610772]].",
+      "links": ["1775469610772"],
+      "tags": ["mission"]
+    },
+    {
+      "id": "1775469610774",
+      "title": "Strategic Goals",
+      "type": "literature",
+      "content": "Strategic goals must be defined at all levels and include both short-term and long-term objectives to ensure organizational success. See [[1775469610772]].",
+      "links": ["1775469610772"],
+      "tags": ["goals"]
+    },
+    {
+      "id": "1775469610775",
+      "title": "Strategy Formulation",
+      "type": "literature",
+      "content": "Strategy formulation involves analyzing internal and external environments and creating action plans to achieve objectives. See [[1775469610776]].",
+      "links": ["1775469610776"],
+      "tags": ["formulation"]
+    },
+    {
+      "id": "1775469610776",
+      "title": "Environmental Analysis",
+      "type": "literature",
+      "content": "Effective strategies require understanding both internal and external organizational conditions. See [[1775469610775]].",
+      "links": ["1775469610775"],
+      "tags": ["analysis", "environment"]
+    },
+    {
+      "id": "1775469610777",
+      "title": "Resource Allocation in Strategy",
+      "type": "literature",
+      "content": "Strategy determines how resources are allocated to maximize opportunities and minimize threats.",
+      "links": [],
+      "tags": ["resources"]
+    },
+    {
+      "id": "1775469610778",
+      "title": "Levels of Strategy",
+      "type": "literature",
+      "content": "Strategies exist at multiple levels: organizational, functional (e.g., marketing, finance), and operational.",
+      "links": [],
+      "tags": ["levels"]
+    },
+    {
+      "id": "1775469610779",
+      "title": "Strategic Innovation and Growth",
+      "type": "literature",
+      "content": "Strategic actions include continuous innovation, identifying new opportunities, and strengthening competitive advantage.",
+      "links": [],
+      "tags": ["innovation"]
+    },
+    {
+      "id": "1775469610780",
+      "title": "Situational Nature of Strategy",
+      "type": "literature",
+      "content": "Strategies must be tailored to specific organizational contexts; what works for one organization may not work for another.",
+      "links": [],
+      "tags": ["situational_analysis"]
+    },
+    {
+      "id": "1775469610781",
+      "title": "Strategy Implementation",
+      "type": "literature",
+      "content": "Strategy implementation requires organizational structure, budgeting, motivation systems, culture alignment, and leadership. See [[1775469610782]].",
+      "links": ["1775469610782"],
+      "tags": ["implementation"]
+    },
+    {
+      "id": "1775469610782",
+      "title": "Organizational Alignment",
+      "type": "literature",
+      "content": "Successful implementation requires all members to understand and execute their role in the strategic plan. See [[1775469610781]].",
+      "links": ["1775469610781"],
+      "tags": ["alignment"]
+    }
+  ]
+}
