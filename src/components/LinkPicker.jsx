@@ -3,8 +3,11 @@ import useNoteStore from '../store/useNoteStore';
 import { Search, Plus } from 'lucide-react';
 
 export const LinkPicker = ({ currentNoteId, onSelect, existingLinks }) => {
-  const { notes } = useNoteStore();
+  const { bokses, currentBoksId } = useNoteStore();
   const [query, setQuery] = useState('');
+
+  const activeBoks = bokses.find(b => b.id === currentBoksId);
+  const notes = activeBoks ? activeBoks.notes : [];
 
   // Don't show the current note or notes already linked
   const filtered = notes.filter(n => 
